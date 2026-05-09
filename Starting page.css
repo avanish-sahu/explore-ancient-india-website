@@ -1,0 +1,325 @@
+*{
+    /* margin: 0; */
+    /* padding: 0; */
+    overflow: hidden;
+    /* box-sizing: border-box; */
+   
+    
+}
+
+
+
+
+.main{
+    height: 100vh;
+    width: 100%;
+    background-image: url(prambanan\ temple.png);
+    background-size:cover;
+    position: relative;
+    
+   
+    
+}
+.main-2{
+    opacity: 0;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+
+}
+.top{
+    height: 350px;
+    width: 100%;
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    margin-left:280px;
+    margin-top:200px;
+    
+}
+/* .heading p{
+    text-decoration: none;
+    font-size: 30px;
+    position: relative;
+    top: 200px;
+    left:300px;
+    font-family: "Cinzel", serif;
+    line-height: 0.20;
+    
+   
+} */
+ .heading .capital{
+  color: rgba(245, 241, 230 , 0.7);
+  font-size: 25px;
+  font-weight: 100;
+z-index: 2;
+padding-left: 200px;
+
+
+
+}
+ .sub-capital{
+    height: 400px;
+    text-align: center;
+    color: #D4AF37;
+    font-size: 90px;
+    position: relative;
+    left: 90px;
+    z-index: 2;
+    position:absolute;
+    left:300px;
+    top: 265px;
+     font-family: "EB Garamond", serif;
+    font-weight: 600;
+    
+    line-height: 0.9;
+    
+}
+.shloka{
+    width: 100%;
+    /* flex-wrap: nowrap; */
+    color: #F5E6C8;
+    font-size: 30px;
+    font-family: "Noto Serif Devanagari", serif;
+    z-index: 2;
+    position: absolute;
+    top: 460px;
+    left: 0px;
+    text-align: center;
+
+}
+.Button{
+    z-index: 4;
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+ .Button a{
+height: 35px;
+width: 200px;
+background-color:#FFD700;
+color: #3B1F0E;
+position: absolute;
+top:570px;
+left:680px;
+border-radius: 25px;
+outline: none;
+border: none;
+z-index: 2;
+text-align: center;
+padding-top: 13px;
+font-size: 20px;
+align-self: center;
+ font-family: "Rubik Distressed", system-ui;
+
+}
+
+/* button:hover{
+    background-color:#fccd31;
+  font-family: "Playfair Display SC", serif;
+  font-weight: 600;
+  font-size: 15px;
+    transition: 1s ease-in; 
+
+  
+} */
+
+
+
+
+
+
+
+
+
+.Anceint-India{
+    /* background-color: #2C2118; */
+    color: #F1D38A;
+    width: 500px;
+    height: 200px;
+    z-index: 2;
+    /* font-family: "Rubik 80s Fade", system-ui; */
+    font-family: "Rubik Distressed", system-ui;
+    font-weight:100;
+    font-size: 25px;
+    position:absolute;
+    top:20px;
+    left: 30px;
+
+    
+}
+.Architecture{
+    color: #E6C27A;
+    z-index: 2;
+    font-family: "Cinzel", serif;
+    position:absolute;
+    left:930px;
+    top:20px;
+    font-size: 20px;
+
+}
+
+/* #check{
+    z-index: 2;
+} */
+.Architecture a{
+    color: #E6C27A;
+    text-decoration: none;
+    outline: none;
+    font-weight:900;
+
+}
+
+/* #X{
+    opacity: 0;
+} */
+/* #X:checked~ .heading,.overlay{
+opacity: 0;
+
+} */
+
+.Science{
+     color: #E6C27A;
+    z-index: 2;
+    font-family: "Cinzel", serif;
+    position:absolute;
+    left:1150px;
+    top:20px;
+    font-size: 20px;
+}
+.Science a{
+    color: #E6C27A;
+    text-decoration: none;
+    outline: none;
+    font-weight:900;
+}
+
+
+
+.Art{
+     color: #E6C27A;
+    z-index: 2;
+    font-family: "Cinzel", serif;
+    position:absolute;
+    left:1300px;
+    top:20px;
+    font-size: 20px;
+}
+
+
+
+.Art a{
+     color: #E6C27A;
+    text-decoration: none;
+    outline: none;
+    font-weight:900;
+}
+
+
+
+
+.floating-letter{
+
+position:absolute;
+
+font-family:'Noto Serif Devanagari', serif;
+
+pointer-events:none;
+
+color:rgba(255,220,150,0.4);
+
+text-shadow:0 0 20px rgba(255,200,120,0.8);
+
+animation:floatUp linear infinite;
+
+z-index:2;
+
+}
+
+@keyframes floatUp{
+
+0%{
+transform:translateY(110vh) scale(0.8);
+opacity:0;
+}
+
+15%{
+opacity:0.8;
+}
+
+85%{
+opacity:0.8;
+}
+
+100%{
+transform:translateY(-10vh) scale(1.2);
+opacity:0;
+}
+
+}
+@media (max-width:1000px){
+    .capital{
+       display: none; 
+
+    }
+    .sub-capital{
+         display: none; 
+   
+    /* font-size: 50px;
+    position: relative;
+    left: 90px;
+    position:absolute;
+    left:0px;
+    top: 40px;
+    flex-shrink: 2; */
+    
+    }
+
+ .shloka{
+    /* flex-wrap: nowrap; */
+/*     
+    font-size: 20px;
+    position: absolute;
+    top: 460px;
+    left: 0px;
+    text-align: center;
+    flex-shrink: 2; */
+    display: none; 
+    }
+    button{
+/* position: absolute;
+top:570px;
+left:350px;
+flex-shrink: 2; */
+display: none; 
+
+}
+.Anceint-India{
+display: none;
+}
+.Architecture{
+
+}
+.Science{
+
+}
+.Art{
+
+}
+}
+
+
+

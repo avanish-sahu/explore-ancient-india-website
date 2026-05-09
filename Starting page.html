@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ancient India</title>
+    <link rel="icon" href="icon.png">
+    <link rel="stylesheet" href="Starting page.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee&family=Cinzel:wght@400..900&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Noto+Serif+Devanagari:wght@100..900&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Rubik+80s+Fade&family=Rubik+Distressed&family=Yatra+One&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/js/bootstrap.min.js" integrity="sha512-nKXmKvJyiGQy343jatQlzDprflyB5c+tKCzGP3Uq67v+lmzfnZUi/ZT+fc6ITZfSC5HhaBKUIvr/nTLCV+7F+Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+        
+    <div class="main">
+        
+        <div class="heading">
+            <div class="capital">Exploring the Architectural Brilliance of Ancient India</div>
+            <div class="sub-capital">Cultural Heritage<br> & Timeless Engineering</div>
+            <div class="shloka">आदरणीयाः शिक्षकाः, प्रियाः मित्राणि, सर्वेभ्यः मम सादरं अभिवादनम्। अद्य अहं मम परियोजनां भवन्तः समक्षं समर्पयामि।<br> कृपया अवधानपूर्वकं शृणुत। अन्ते भवतां प्रश्नान् अपि स्वागतम्। धन्यवादः।</div>
+            <div class="Button">
+                   <a href="#">
+                    History-Impact
+                    </a>
+            </div>
+            <a href="ILMM.html"> 
+               
+            </a>
+        <div class="overlay"></div>
+        <div class="top">
+                 <div class="Anceint-India">Ancient India – A Sacred Legacy</div>
+                
+                 <div class="Architecture">
+                    <a href="architecture.html">
+                    Architecture
+                   </a>
+                 </div>
+                 <div class="Science">
+                   <a href="science.html">
+                    Science</a>
+                </div>
+                 <div class="Art"> 
+                    <a href="art.html">
+                    Art & Culture</a>
+                </div>
+                                                                                                                                      
+
+
+
+
+
+        </div>
+        </div>
+        
+    </div>
+
+
+         <script>
+
+const letters = ["अ","आ","इ","ई","उ","क","ख","ग","च","त","ध","न","श","त्र","ज्ञ","ॐ"];
+
+function createLetter(){
+
+const letter = document.createElement("div");
+
+letter.classList.add("floating-letter");
+
+letter.innerText = letters[Math.floor(Math.random()*letters.length)];
+
+letter.style.left = Math.random()*100 + "vw";
+letter.style.animationDuration = (10 + Math.random()*10) + "s";
+letter.style.fontSize = (20 + Math.random()*40) + "px";
+
+document.querySelector(".main").appendChild(letter);
+
+setTimeout(()=>{
+letter.remove();
+},20000);
+
+}
+
+setInterval(createLetter,600);
+
+</script>
+</html>
