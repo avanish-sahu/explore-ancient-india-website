@@ -1,0 +1,236 @@
+*{
+    /* overflow: hidden; */
+}
+.back a{
+    position: fixed;
+    left: 40px;
+    z-index: 3;
+    top: 18px;
+    outline: none;
+    text-decoration: none;
+    color: white;
+    padding:2px 2px 0px 2px;
+
+}
+
+.back i{
+    position: fixed;
+    left: 15px;
+    top: 18px;
+    z-index: 3;
+    margin-top: 2px;
+    outline: none;
+    text-decoration: none;
+    color: white;
+   
+
+}
+
+
+.main{
+    height: 100vh;
+    width: 100%;
+    background-image: url(architecture\ background.png);
+    background-size: cover;
+overflow:auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin:0 0 0 0;   
+    flex-wrap: wrap;   
+    scrollbar-width: none;             
+}
+.card{
+    height: 350px;
+background: rgba(20, 20, 20, 0.55);
+backdrop-filter: blur(10px);
+border-radius: 15px;
+border: 1px solid rgba(255,255,255,0.2);
+box-shadow: 0 8px 25px rgba(0,0,0,0.6);
+padding: 25px;
+color: white;
+/* position: absolute;
+top: 150px;
+left: 140px; */
+margin: 60px 40px 40px 60px;
+overflow: auto;
+scrollbar-width: none;
+scrollbar-width: none;
+}
+.card img{
+    height:100px;
+    width: 150px;
+    position: relative;
+    left: 70px;
+}
+.card-title{
+    letter-spacing: 2px;
+    text-align: center;
+    font-family: "Playfair Display SC", serif;
+    font-weight: 700;
+}
+
+.card-text{
+     text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+.card-body a{
+font-family: 'Poppins', sans-serif;
+font-size:16px;
+letter-spacing:8px;
+
+color:#FFD700;
+text-decoration:none;
+position: absolute;
+left: 60px;
+padding: 8px 46px;
+border:1px solid #FFD700;
+border-radius:20px;
+transition:0.7s;
+}
+.card-body a:hover{
+    background:#FFD700;
+color:#2b1a10;
+}
+/* ///// */
+.card1{
+    height: 350px;
+background: rgba(20, 20, 20, 0.55);
+backdrop-filter: blur(10px);
+border-radius: 15px;
+border: 1px solid rgba(255,255,255,0.2);
+box-shadow: 0 8px 25px rgba(0,0,0,0.6);
+padding: 25px;
+color: white;
+/* position: absolute;
+top: 150px;
+left: 620px; */
+}
+.card1 img{
+    height:100px;
+    width: 150px;
+    position: relative;
+    left: 70px;
+}
+.card1 .card-body a{
+   position: absolute;
+   top: 350px;
+   
+} 
+.card1 .card-title{
+    letter-spacing: 2px;
+}
+/* //// */
+.card2{
+    height: 350px;
+background: rgba(20, 20, 20, 0.55);
+backdrop-filter: blur(10px);
+border-radius: 15px;
+border: 1px solid rgba(255,255,255,0.2);
+box-shadow: 0 8px 25px rgba(0,0,0,0.6);
+padding: 25px;
+color: white;
+/* position: absolute;
+top: 150px;
+left: 1100px; */
+}
+.card2 img{
+    height:100px;
+    width: 150px;
+    position: relative;
+    left: 70px;
+}
+.card2 .card-body a{
+   position: absolute;
+   top: 350px;
+   
+} 
+.card2 .card-title{
+    letter-spacing: 2px;
+}
+/* ////////  special*/
+.card3{
+    height: 350px;
+background: rgba(20, 20, 20, 0.55);
+backdrop-filter: blur(10px);
+border-radius: 15px;
+border: 1px solid rgba(255,255,255,0.2);
+box-shadow: 0 8px 25px rgba(0,0,0,0.6);
+padding: 25px;
+color: white;
+/* position: absolute;
+top: 250px;
+left: 140px; */
+}
+.card3 img{
+    height:100px;
+    width: 150px;
+    position: relative;
+    left: 70px;
+}
+.card3 .card-body a{
+   position: absolute;
+   top: 350px;
+   
+} 
+.card3 .card-title{
+    letter-spacing: 2px;
+}
+/* //// */
+.card4{
+    height: 350px;
+background: rgba(20, 20, 20, 0.55);
+backdrop-filter: blur(10px);
+border-radius: 15px;
+border: 1px solid rgba(255,255,255,0.2);
+box-shadow: 0 8px 25px rgba(0,0,0,0.6);
+padding: 25px;
+color: white;
+/* position: absolute;
+top: 250px;
+left:620px; */
+}
+.card4 img{
+    height:100px;
+    width: 150px;
+    position: relative;
+    left: 70px;
+}
+.card4 .card-body a{
+   position: absolute;
+   top: 350px;
+   
+} 
+.card4 .card-title{
+    letter-spacing: 2px;
+}
+/* //////// */
+.card5{
+    height: 350px;
+background: rgba(20, 20, 20, 0.55);
+backdrop-filter: blur(10px);
+border-radius: 15px;
+border: 1px solid rgba(255,255,255,0.2);
+box-shadow: 0 8px 25px rgba(0,0,0,0.6);
+padding: 25px;
+color: white;
+position: absolute;
+top: 250px;
+left: 1100px;
+}
+.card5 img{
+    height:100px;
+    width: 150px;
+    position: relative;
+    left: 70px;
+}
+.card5 .card-body a{
+   position: absolute;
+   top: 350px;
+   
+} 
+.card5 .card-title{
+    letter-spacing: 2px;
+}
